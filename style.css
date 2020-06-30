@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.homepage{ 
+	background: url(../img/background11.jpg);
+	background-size: 100%; 
+	background-repeat: no-repeat;
+}
+body{
+	margin: 20px 0px 0 0px;
+	
+	font-family: poppins;
+}
+
+.logo img{
+	width: 30px;
+	float: left;
+	padding: 0 0 0 100px;
+	
+}
+
+aside {
+	float:right;
+	padding-right: 200px;
+}
+
+aside li{
+	list-style: none;
+	display: inline;
+	padding: 0 10px 0 10px;
+	font-size: 11px;
+}
+aside a{
+	text-decoration: none;
+	color: #333333;
+}
+aside a:hover{
+	text-decoration: underline;
+
+}
+span img{
+	width: 500px;
+	transform: scale(1.0);
+	transition: transform 0.1s linear;
+}
+span img:hover{
+	transform: scale(0.90);
+
+}
+.works-flex{
+	display:flex;
+	justify-content: space-around;
+	padding: 0 100px 0 100px;
+}
+.main-text{
+	margin: 130px 0 0 100px;
+	color: #333333;
+	line-height: 30px;
+}
+.main-text a{
+	text-decoration: none;
+	color: #FFA600;
+}
+.main-text a:hover{
+	text-decoration: overline;
+
+}
+.contact  {
+	width: 200px;
+	margin: 100px 0 150px 100px;
+	transition: width 0.3s;
+	
+}
+.contact:hover{
+	width:300px;
+
+}
+.contact a{
+	color: #1A1A1A;
+	text-decoration: none;
+	font-family: poppins;
+	font-style: italic;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding: 15px 25px 15px 25px;
+	background-color: #FFA600;
+	border:2px solid black;
+	border-color: #FFA600;
+	border-radius: 5px;
+
+}
+span li{
+	list-style: none;
+	color: rgb(100,100,100);
+	font-size: 14px;
+}
+span li:before{
+	content: '- ';
+}
+
+.start{
+	background-color: #FFA600;
+	padding: 50px 0 150px 100px;
+
+}
+.start h5{
+	font-weight: normal;
+	font-size: 15px;
+}
+.start a {
+	
+	
+
+	
+}
+.me  {
+	width: 200px;
+	margin: 0 0 0 100px;
+	position: relative;
+	bottom: 100px;
+	transition: 3s;
+}
+.me a {
+	color: #1A1A1A;
+	text-decoration: none;
+	font-family: poppins;
+	font-style: italic;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding: 15px 25px 15px 25px;
+	background-color: #ffffff;
+	border:2px solid black;
+	border-color: #ffffff;
+	border-radius: 5px;
+	
+}
+.me a:hover{
+	width: 300px;
+	
+}
+.footer footer{
+	background-color: #ffffff; 
+
+
+}
+footer{
+	padding: 50px 0 50px 100px;
+	color: #000000;
+}
+.form{
+    margin-left: 150px;
+    float: ;
+    text-align: left;
+    width: 700px;
+
+}
+
+form textarea
+{
+    width: 500px;
+    height: 120px;
+    font-family: poppins;
+    line-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(100,100,100,0.1);
+    border:1px solid rgba(100,100,100,0.1);
+    box-sizing: border-box;
+    outline: none;
+}
+form ul{
+    list-style: none;
+
+}
+
+form li input  {
+    width:500px;
+    line-height: 50px;
+    font-family: poppins;
+    padding-left: 20px;
+    padding-right: 0px;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+    background-color: rgba(100,100,100,0.1);
+    border:1px solid rgba(100,100,100,0.1);
+    box-sizing: border-box;
+    outline: none;
+}
+form li input img{
+	width: 20px;
+}
+form li input[type=placeholder] :focus{
+
+}
+
+
+.hello{
+	margin: 100px 0 0 150px;
+}
+form input[type=submit] {
+	background-color: #000000;
+	border-radius: 5px;
+	color: #ffffff;
+	transform: scale(1.0);
+	transition: transform 0.1s linear;
+	width: 500px;
+}
+form input[type=submit]:hover{
+	transform: scale(0.98);
+}
+
+	 	
